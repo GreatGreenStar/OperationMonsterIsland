@@ -1,7 +1,22 @@
-[gd_scene format=3 uid="uid://bnskluy3nvkvl"]
+[gd_scene load_steps=4 format=3 uid="uid://bnskluy3nvkvl"]
 
-[node name="Node2D" type="Node2D"]
-position = Vector2(969, 614)
+[ext_resource type="Script" path="res://Main.gd" id="1_uqkvl"]
+[ext_resource type="Texture2D" uid="uid://2remnc23khfm" path="res://Character Artwork/Advanced/Hoku.png" id="2_0xk2k"]
+[ext_resource type="Texture2D" uid="uid://c1iqbhfouf8tu" path="res://Battle Maps/Map C1 - Frostfire Rift.png" id="2_8kgsn"]
 
-[node name="Node3D" type="Node3D" parent="."]
-transform = Transform3D(-0.332161, 0.376109, -0.864992, 0, 0.91706, 0.398749, 0.943223, 0.132449, -0.304612, 5, 21.18, 0.135)
+[node name="Main" type="Node2D"]
+script = ExtResource("1_uqkvl")
+
+[node name="MapC1-FrostfireRift" type="Sprite2D" parent="."]
+position = Vector2(858, 367)
+scale = Vector2(0.189542, 0.189542)
+texture = ExtResource("2_8kgsn")
+
+[node name="Hoku" type="Sprite2D" parent="."]
+position = Vector2(358, 129)
+scale = Vector2(0.0880166, 0.107743)
+texture = ExtResource("2_0xk2k")
+
+[node name="SpotTwo" type="Marker2D" parent="."]
+position = Vector2(556, 134)
+gizmo_extents = 316.3
