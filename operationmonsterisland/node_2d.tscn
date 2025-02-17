@@ -9,8 +9,8 @@
 script = ExtResource("1_uqkvl")
 
 [node name="MapC1-FrostfireRift" type="Sprite2D" parent="."]
-position = Vector2(830, 306)
-scale = Vector2(0.189542, 0.189542)
+position = Vector2(748.883, 577)
+scale = Vector2(0.469771, 0.469771)
 texture = ExtResource("2_8kgsn")
 
 [node name="Hoku" type="Sprite2D" parent="."]
@@ -23,6 +23,6 @@ position = Vector2(150, 215)
 gizmo_extents = 316.3
 
 [node name="HokuToken" type="Sprite2D" parent="."]
-position = Vector2(857, 274)
-scale = Vector2(0.0152889, 0.0152889)
+position = Vector2(958, 416)
+scale = Vector2(0.0399124, 0.0399124)
 texture = ExtResource("4_smm6x")

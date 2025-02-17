@@ -2,6 +2,8 @@ extends Node2D
 
 @onready var hokuToken : Sprite2D = $HokuToken
 @onready var spotTwo: Marker2D = $SpotTwo
+@export var gameSpaces: Array[Node]
+var place : int = 0
 
 
 func _unhandled_input(event: InputEvent) -> void:
